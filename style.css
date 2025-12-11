@@ -1,0 +1,48 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+background: #d8b4a0;
+padding: 10px;
+}
+
+
+.nav-links {
+display: flex;
+gap: 15px;
+}
+
+
+.hero {
+padding: 80px;
+text-align: center;
+background: #f7eae5;
+}
+
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+
+.card {
+background: white;
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+
+.footer {
+text-align: center;
+padding: 20px;
+background: #d8b4a0;
+margin-top: 40px;
+}
